@@ -5,11 +5,8 @@
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 9,
-    "verified": 9,
-    "maximum": 11
-  },
+  "minimumCoreVersion": "9.269",
+  "compatibleCoreVersion": "9.269",
   "authors": [
     {
       "name": "Juan Espinet",
@@ -22,12 +19,6 @@
   },
   "esmodules": [
     "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
   ],
   "languages": [
     {
