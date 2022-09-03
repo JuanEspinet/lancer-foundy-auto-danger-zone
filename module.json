@@ -1,10 +1,8 @@
 {
-  "id": "lancer-foundy-auto-danger-zone",
+  "name": "lancer-foundy-auto-danger-zone",
   "title": "Lancer Auto Danger Zone",
-  "description": "",
+  "description": "A very small module for the Lancer system for Foundry VTT which adds a hook to automatically apply the Danger Zone effects to tokens in the Danger Zone.",
   "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "9.269",
   "compatibleCoreVersion": "9.269",
   "authors": [
@@ -13,10 +11,6 @@
       "url": "https://github.com/JuanEspinet"
     }
   ],
-  "relationships": {
-    "systems": ["lancer"],
-    "requires": ["lancer"]
-  },
   "esmodules": [
     "scripts/module.js"
   ],
@@ -31,11 +25,5 @@
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }
