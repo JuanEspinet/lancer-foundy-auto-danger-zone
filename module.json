@@ -17,8 +17,8 @@
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": ["lancer"],
+    "requires": ["lancer"]
   },
   "esmodules": [
     "scripts/module.js"
