@@ -10,10 +10,10 @@ function createDangerZoneEffect() {
     }
 }
 
-let onUpdateToken = (t) => { 
-    let maxHeat = t.actor.data?.data?.derived?.heat?.max;
-    let currHeat = t.actor.data?.data?.derived?.heat?.value;
-    let existingeffect = hasEffect(t.actor,"dangerzone");
+const onUpdateToken = (t) => { 
+    const maxHeat = t.actor.data?.data?.derived?.heat?.max;
+    const currHeat = t.actor.data?.data?.derived?.heat?.value;
+    const existingeffect = hasEffect(t.actor,"dangerzone");
 
     if (maxHeat > 0 &&
         ((currHeat >= (maxHeat / 2) && !existingeffect) || (currHeat < (maxHeat / 2) && existingeffect ))) {
