@@ -15,8 +15,8 @@ let onUpdateToken = (t) => {
     let currHeat = t.actor.data?.data?.derived?.heat?.value;
     let existingeffect = hasEffect(t.actor,"dangerzone");
 
-    if ((currHeat >= (maxHeat / 2) && !existingeffect)
-        || (currHeat < (maxHeat / 2) && existingeffect )) {
+    if (maxHeat > 0 &&
+        ((currHeat >= (maxHeat / 2) && !existingeffect) || (currHeat < (maxHeat / 2) && existingeffect ))) {
         t.toggleActiveEffect(createDangerZoneEffect());
     }
 };  

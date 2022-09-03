@@ -9,6 +9,6 @@
 
 # FoundryVTT Module
 
-Does something, probably
+Very simple functionality to automatically apply/remove the Danger Zone status effect on tokens when their heat bar changes.
 
 ## Changelog
